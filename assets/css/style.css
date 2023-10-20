@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #001e4d;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.timer {
+    color: #8f552f;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    margin: 0 10%;
+
+}
+
+
+.ans {
+    width: 80%;
+    height: 30px;
+    margin: 0 10%;
+    text-align: center;
+}
+
+
+
+
+button.answerchoice {
+    display: none;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.answers div {
+    margin: 0 auto;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+h1,
+h2,
+h3,
+.question {
+    text-align: center;
+    color: blue;
+}
